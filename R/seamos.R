@@ -1,5 +1,4 @@
-#' Performs the Standardised Effects Adjusted for Multiple Overlapping Subgroups (SEAMOS) method
-#' for assessing subgroup treatment effects from randomised trials.
+#' Standardised Effects Adjusted for Multiple Overlapping Subgroups (SEAMOS)
 #'
 #' @param data A data frame containing the trial data.
 #' @param outcome A string indicating the name of the outcome variable.
