@@ -9,6 +9,7 @@
 #' @return A list containing the largest absolute effect size from the observed data and an array
 #' containing the permutation distribution of the largest absolute effect sizes.
 
+#' @export
 seamos <- function(data,outcome,treat,covs,nperm) {
   #analyse observed data first
   #construct model formula
