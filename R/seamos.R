@@ -57,5 +57,5 @@ seamos <- function(data,outcome,treat,covs,nperm) {
     zMaxArray[j] <- max(abs(stdEffectsPerm))
   }
   seamosP <- mean(zMaxArray>zMax)
-  return(list(zMax=zMax,zMaxArray=zMaxArray))
+  return(list(zMax=zMax,stdEffects=stdEffects,zMaxArray=zMaxArray))
 }
